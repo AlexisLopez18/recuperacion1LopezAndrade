@@ -1,0 +1,23 @@
+#snacks{
+    background: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.snack{
+    margin: 20px;
+}
+
+#snacks .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.snack img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #ffffff;
+}
